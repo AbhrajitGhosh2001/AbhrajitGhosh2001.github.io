@@ -1,0 +1,144 @@
+.item1 {
+    background: rgba(38, 2, 59);
+    color: rgba(121, 227, 241, 0.493);
+    border: solid #000000 6px;
+    margin: 4px;
+}
+
+
+.item2 {
+    background: rgb(82, 86, 141);
+    color: rgba(121, 227, 241, 0.493);
+    border: solid #000000 6px;
+    margin: 4px;
+}
+
+.item1:active {
+    background: rgba(38, 2, 59);
+    color: rgba(121, 227, 241, 0.493);
+    border: solid #000000 6px;
+    transform: scale(0.95);
+}
+
+.item2:active {
+    background: rgb(82, 86, 141);
+    color: rgba(121, 227, 241, 0.493);
+    border: solid #000000 6px;
+    transform: scale(0.95);
+}
+
+.item1:hover {
+    background: rgba(38, 2, 59);
+    color: rgb(121, 227, 241);
+    border: solid #000000 6px;
+}
+
+.item2:hover {
+    background: rgb(82, 86, 141);
+    color: rgb(121, 227, 241);
+    border: solid #000000 6px;
+}
+
+footer {
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+#rightse {
+    background-color: darkslategrey;
+    color: rgba(0, 255, 255, 0.267);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+}
+
+#leftse {
+    background-color: darkslategrey;
+    color: rgba(0, 255, 255, 0.267);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+}
+
+#rightse:hover {
+    background-color: darkslategrey;
+    color: aqua;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+}
+
+#leftse:hover {
+    background-color: darkslategrey;
+    color: aqua;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+}
+
+#container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: expanded;
+    text-align: center;
+    margin: auto;
+    font-size: 40px;
+    min-height: 100px;
+    width: 40%;
+    background: rgba(129, 55, 86, 0.623);
+    display: grid;
+    grid-template-columns: repeat(1, minmax(60px, 1fr));
+    grid-gap: 5px;
+}
+
+h1 {
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color: rgba(52, 229, 241, 0.527);
+    width: 70%;
+}
+
+h1:hover {
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color: rgb(52, 228, 241);
+    width: 70%;
+}
+
+.grid {
+    display: grid;
+}
+
+#userPhoto {
+    object-fit: none;
+    width: 230px;
+    height: 240px;
+    display: block;
+    margin: 20px auto 5px;
+    border-radius: 60%;
+    border: solid #000000 2px;
+}
+
+footer {
+	color: white;
+    margin-top: 40px;
+}
+
+img.background {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 115%;
+}
